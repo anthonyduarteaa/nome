@@ -1,7 +1,7 @@
 function calcula(){
-    let C = parseFloat(document.getElementById('C').value);
-    let P = parseFloat(document.getElementById('P').value);
-    let T = parseFloat(document.getElementById('T').value);
+    let C = parseInt(document.getElementById('C').value);
+    let P = parseInt(document.getElementById('P').value);
+    let T = parseInt(document.getElementById('T').value);
 
     if(C == 0){
         alert("O capital não pode ser 0!");
